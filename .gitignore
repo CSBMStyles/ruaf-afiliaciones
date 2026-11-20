@@ -1,0 +1,38 @@
+# Entorno
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+
+# Secretos y configuración local
+.env
+.env.*
+config.json
+config.json.tmp
+*.bak
+
+# Datos de entrada y estado
+usuarios.txt
+estado_*.json
+*_proceso*.json
+
+# Resultados de automatizaciones
+errors/
+temp_pdf/
+antecedentes/
+rethus/
+reports/
+*.pdf
+*.xlsx
+*.csv
+*.pptx
+*.log
+
+# Respaldos
+_backup_*/
+_prueba_local*/
